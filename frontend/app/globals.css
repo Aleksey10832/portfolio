@@ -807,6 +807,10 @@ textarea::placeholder {
     margin-bottom: 20px;
   }
 }
+.hrefs{
+  gap:20px;
+  display: flex;
+}
 
 @media (prefers-reduced-motion: reduce) {
   html {

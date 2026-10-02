@@ -247,14 +247,23 @@ export default async function HomePage() {
 
       <footer className="container site-footer">
         <span>© {new Date().getFullYear()} Алексей Куратов</span>
-
-        <a
-          href="https://github.com/Aleksey10832"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub ↗
-        </a>
+        <div className="hrefs">
+          <a
+            href="https://github.com/Aleksey10832"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+          <a
+            href="https://t.me/aleksey10831"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram ↗
+          </a>
+        </div>
+        
       </footer>
     </>
   );
