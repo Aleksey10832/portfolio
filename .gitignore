@@ -1,11 +1,30 @@
+# Окружение и секреты
 .env
 .env.*
 !.env.example
 
-**/bin/
-**/obj/
-**/node_modules/
-**/.next/
+# Зависимости
+node_modules/
 
+# Backend (NestJS + Prisma)
+dist/
+*.tsbuildinfo
+prisma/**/*.db
+prisma/**/*.db-journal
+
+# Frontend (Next.js)
+.next/
+out/
+build/
+coverage/
+
+# Логи
+*.log
+npm-debug.log*
+
+# Редакторы и ОС
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+desktop.ini
